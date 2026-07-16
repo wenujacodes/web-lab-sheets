@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 30%;
+            text-align: center;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- table-1 -->
+    <table>
+        <tr style="height: 50px;">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>John</td>
+            <td>911</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Nimal</td>
+            <td>119</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+
+
+    <!-- table-2 -->
+
+    <table>
+        <tr style="height: 50px;">
+
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Jill</td>
+            <td>Staint</td>
+            <td>43</td>
+        </tr>
+        <tr>
+        
+            <td>Jackson</td>
+            <td>67</td>
+        </tr>
+    </table>
+</body>
+</html>
